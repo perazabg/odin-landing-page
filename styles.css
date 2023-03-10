@@ -1,0 +1,20 @@
+* {
+    border: 1px dashed red;
+}
+  
+.header,
+.footer,
+.body{
+  padding: 16px;
+  margin: 16px
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+  
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
