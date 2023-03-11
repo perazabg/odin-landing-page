@@ -36,10 +36,6 @@ button{
   color: #3882F6;
 }
 
-.row4{
-  background-color: #3882F6;
-}
-
 li{
   color: #E5E7EB;
   font-size: 18px;
@@ -61,11 +57,16 @@ li{
   font-weight: bolder;
   color: #1F2937
 }
-
+.row2{
+  display: flex;
+  flex-direction: column;
+}
 .row3{
   background-color: #E5E7EB;
 }
-
+.row4{
+  background-color: #3882F6;
+}
 .quote{
   font-size: 36px;
   font-style: light italic;
