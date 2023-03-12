@@ -59,7 +59,7 @@ li{
 }
 .row2{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .row3{
   background-color: #E5E7EB;
@@ -69,6 +69,7 @@ li{
 }
 .quote{
   font-size: 36px;
-  font-style: light italic;
+  font-style: italic;
+  font-weight: lighter;
   color: #1F2937;
 }
