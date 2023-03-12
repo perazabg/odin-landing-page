@@ -76,3 +76,9 @@ li{
   font-weight: lighter;
   color: #1F2937;
 }
+
+.cardsubtext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
