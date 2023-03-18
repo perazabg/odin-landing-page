@@ -1,132 +1,146 @@
-/*
+
 * {
-    border: 1px dashed red;
+  border: 1px dashed red;
 } 
-*/
-  
+
+
 .header{
-  display: flex;
-  justify-content: space-between;
-  color: #F9FAF8
+display: flex;
+justify-content: space-between;
+color: #F9FAF8
 }
 
 .body{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
-  
+
 .footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #F9FAF8;
+padding: 8px;
 }
 
 .header,
 .hero,
 .footer{
-  background-color: #1F2937;
+background-color: #1F2937;
 }
 
 .box{
-  border: #3882F6 2px solid;
-  border-radius: 8px;
+border: #3882F6 2px solid;
+border-radius: 8px;
 }
 
 button{
-  color: #F9FAF8;
-  background-color: #3882F6;
-  border: #F9FAF8 solid 1px;
-  border-radius: 8px;
+color: #F9FAF8;
+background-color: #3882F6;
+border: #F9FAF8 solid 1px;
+border-radius: 8px;
+
 }
 
 li{
-  color: #E5E7EB;
-  font-size: 18px;
+color: #E5E7EB;
+font-size: 18px;
 }
 
 .hmaintext{
-  font-size: 48px;
-  font-weight: bolder;
-  color: #F9FAF8;
+font-size: 48px;
+font-weight: bolder;
+color: #F9FAF8;
 }
 
 .hsubtext{
-  font-size: 24px;
-  color: #F9FAF8;
+font-size: 24px;
+color: #F9FAF8;
 }
 
 .infohead{
-  font-size: 36px;
-  font-weight: bolder;
-  color: #1F2937
+font-size: 36px;
+font-weight: bolder;
+color: #1F2937
 }
 .row2{
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+display: flex;
+flex-direction: row;
+gap: 16px;
 }
 .row3{
-  background-color: #E5E7EB;
-  display: flex;
-  flex-direction: column;
-  color: #E5E7EB;
+background-color: #E5E7EB;
 }
 .row4{
-  background-color: #3882F6;
-  display: flex;
-  justify-content: space-evenly;
-  color: #F9FAF8;
+background-color: #3882F6;
+display: flex;
+justify-content: space-evenly; 
+color: #F9FAF8;
 }
 .quote{
-  font-size: 36px;
-  font-style: italic;
-  font-weight: lighter;
-  color: #1F2937;
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;
+color: #1F2937;
 }
 
 .cardsubtext{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+}
+
+.row2{
+display: flex;
+flex-direction: column;
+
 }
 
 .cards{
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  height: auto;
+display: flex;
+flex-direction: column;
+width: 200px;
+height: auto;
 }
-
 .box{
-  width: 200px;
-  height: 150px;
+width: 200px;
+height: 150px;
 }
 
 .cardsection{
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  gap: 16px;
+display: flex;
+align-self: center;
+justify-content: center;
+gap: 16px;
 }
 
 .infohead{
-  align-self: center;
-  justify-content: center;
-  margin-top: 13px;
+align-self: center;
+justify-content: center;
+margin-top: 13px;
+}
+
+
+/* row 3 start */
+.row3{
+display: flex;
+flex-direction: column;
 }
 
 .signature{
-  font-weight: bold;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 16px
+font-weight: bold;
+display: flex;
+justify-content: flex-end;
+margin-right: 16px
+}
+
+
+.calltoaction{
+margin-bottom: -16px;
+font-size: 18px
 }
 
 .r4p{
-  font-size: 12px;
-}
-
-.calltoaction{
-  margin-bottom: -16px;
-  font-size: 18px
+font-size: 12px;
 }
