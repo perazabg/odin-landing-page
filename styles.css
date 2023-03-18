@@ -33,7 +33,10 @@
 }
 
 button{
-  color: #3882F6;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: #F9FAF8 solid 1px;
+  border-radius: 8px;
 }
 
 li{
@@ -59,16 +62,20 @@ li{
 }
 .row2{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 16px;
 }
 .row3{
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  color: #E5E7EB;
 }
 .row4{
   background-color: #3882F6;
   display: flex;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
+  color: #F9FAF8;
 }
 .quote{
   font-size: 36px;
@@ -81,4 +88,45 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+}
+
+.box{
+  width: 200px;
+  height: 150px;
+}
+
+.cardsection{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.infohead{
+  align-self: center;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+.signature{
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 16px
+}
+
+.r4p{
+  font-size: 12px;
+}
+
+.calltoaction{
+  margin-bottom: -16px;
+  font-size: 18px
 }
