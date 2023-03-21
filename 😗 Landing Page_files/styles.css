@@ -34,13 +34,11 @@ body{
 
 .hero{
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
     padding-left: 96px;
     padding-right: 96px;
-    padding-top: 48px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
 .heroleft{
@@ -51,6 +49,7 @@ body{
 .heroright{
     justify-content: center;
     align-items: center;
+
 }
 
 .header,
@@ -62,28 +61,21 @@ body{
 .box{
   border: #3882F6 2px solid;
   border-radius: 8px;
-  overflow: hidden;
-  width: 125px;
-  height: 100px;
 }
 
 button{
   color: #F9FAF8;
   background-color: #3882F6;
   border-radius: 8px;
-  width: 75px;
-  height: 30px;
-}
-
-.quote-btn-ctn{
-    display: flex;
-    align-items: center;
 }
 
 #actionbutton{
     border: #F9FAF8 solid 1px;
 }
 
+#herobutton{
+   
+}
 
 ul{
     display: flex;
@@ -103,16 +95,15 @@ li{
     font-size: 24px;
 }
 .hmaintext{
-  font-size: 32px;
+  font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
 }
 
 .hsubtext{
-  font-size: 16px;
+  font-size: 24px;
   color: #F9FAF8;
   margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .infohead{
@@ -129,33 +120,13 @@ li{
 }
 .row3{
   background-color: #E5E7EB;
-  padding-left: 96px;
-  padding-right: 96px;
 }
 .row4{
   background-color: #3882F6;
-  color: #F9FAF8;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  padding-left: 96px;
-  padding-right: 96px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  justify-content: space-between;
   
 }
-
-.r4left{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.r4p{
-    margin: 0px;
-}
-
 .quote{
   font-size: 36px;
   font-style: italic;
@@ -172,7 +143,6 @@ li{
     justify-content: flex-end;
     padding-right: 96px;
     font-weight: bolder;
-    padding-bottom: 64px;
 }
 
 .cardsubtext{
@@ -185,7 +155,6 @@ li{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 24px;
 }
 
 

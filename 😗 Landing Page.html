@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>😗 Landing Page</title>
+    
+<link rel="stylesheet" href="./😗 Landing Page_files/styles.css"><link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS76jflkIoc7fC6KKoyX0ll0YoPAJvj-NvDG6-M8phJoG4B_pkKaSdaVBnzfsyOYYbwOmg&amp;usqp=CAU" type="image/icon type"></head>
+<body>
+    <div class="header">
+        <div class="headerlogo">Header Logo</div>
+        <ul>
+            <li>header link one</li>
+            <li>header link two</li>
+            <li>header link three</li>
+        </ul>
+    </div>
+    <div class="body">
+        <div class="hero">
+            <div class="heroleft">
+                <div class="hmaintext">This website is awesome</div>
+                <p class="hsubtext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+                <button id="herobutton">Sign up</button>
+            </div>
+            <div class="heroright"><img src="./😗 Landing Page_files/slashlespaul.jpeg" alt="vintage sunburst les paul with a flame top sitting in a case" width="350px"></div>
+        </div>
+        <div class="row2">
+            <div class="infohead">Some random information</div>
+            <div class="cardsection">
+                <div class="cards">
+                    <div class="box"><img src="./😗 Landing Page_files/prsTurtle.jpg" alt="PRS acoustic guitar with a quilted top, quilted green back and sides, and turtle inlays on the neck and a turle inlay on the headstock" width="150px" height="auto"></div>
+                    <p class="cardsubtext">this is some subtext under an illustraion or image</p>
+                </div>
+                <div class="cards">
+                    <div class="box"><img src="./😗 Landing Page_files/prsSingleF.jpg" alt="green flamed top single cut PRS McCarty" width="150px" height="auto"></div>
+                    <p class="cardsubtext">this is some subtext under an illustraion or image</p>
+                </div>
+                <div class="cards">
+                    <div class="box"><img src="./😗 Landing Page_files/prsSnake.jpg" alt="PRS McCarty singlecut with a custom carved rattlesnake on the top" width="150px" height="auto"></div>
+                    <p class="cardsubtext">this is some subtext under an illustraion or image</p>
+                </div>
+                <div class="cards">
+                    <div class="box"><img src="./😗 Landing Page_files/prsFrog.jpg" alt="PRS acoustic with green tree frog inlays on the neck" width="150px" height="auto"></div>
+                    <p class="cardsubtext">this is some subtext under an illustraion or image</p>
+                </div>
+            </div>
+        </div>
+        <div class="row3">
+            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p> 
+            <div class="signature">-Thor, God of Thunder</div>
+        </div>
+        <div class="row4">
+            <div class="r4left">
+                <div class="calltoaction">Call to action! It's time!</div>
+                <p class="r4p">sign up for our product by clicking that button over there!</p>
+            </div>
+            <button id="actionbutton">Sign up</button>
+        </div>
+    </div>
+    <div class="footer">
+        copyright @ The Odin Project 2021
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
