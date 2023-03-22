@@ -1,8 +1,8 @@
-
+/*
 *{
     border: 1px dashed red;
 } 
-
+*/
 
 body{
     padding: 0;
@@ -34,7 +34,8 @@ body{
 
 .hero{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 24px;
     align-items: center;
     padding-left: 96px;
     padding-right: 96px;
@@ -63,8 +64,9 @@ body{
   border: #3882F6 2px solid;
   border-radius: 8px;
   overflow: hidden;
-  width: 125px;
+  width: 150px;
   height: 100px;
+  flex: 1;
 }
 
 button{
@@ -188,4 +190,6 @@ li{
     gap: 24px;
 }
 
-
+.cards{
+    flex: 1;
+}
